@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cafeteria Menu</title>
+</head>
+
+<body>
+
+    <header class="header">
+        
+        <div class="uhlogo">
+            <img src="uh_school_logo_full_text.png" alt="UH school logo">
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="topmenu">
+                <li><a href="cafe_Owner_Bio_Page.html">Home</a></li>
+                <li><a href="cafe_Menu.html">Menu</a></li>
+                <li><a href="cafe_Order_Now.html">Order Now</a></li>
+                <li><a href="cafe_About_Us.html">About Us</a></li>          
+                <li><a href="cafe_Contact_Us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="menuheader"> Cougar Cuisine Menu</h1>
+        
+        
+        
+        <div class="menu_pics_and_links">
+            <div class="menu-item">
+                <a href="cafe_entree.html" id="menulink">
+                <img src="Menu_burger.jpeg" class="menuimages" alt="Picture of Entree Burger">
+            </a>
+            </div>
+            <div class="middle-image"> <!-- Added container for the middle image -->
+                <img src="uh_cougarpaw_logo.png" alt="Middle Image" id="rotateImage"> <!-- Added middle image -->
+            </div>
+            <div class="menu-item">
+                <a href="cafe_desserts.html" id="menulink">
+                <img src="menu_Desert.jpeg" class="menuimages" alt="Picture of Dessert Ice cream">
+            </a>
+            </div>
+            <div class="middle-image"> <!-- Added container for the middle image -->
+                <img src="uh_cougarpaw_logo.png" alt="Middle Image" id="rotateImage"> <!-- Added middle image -->
+            </div>
+            <div class="menu-item">
+                <a href="cafe_Snacks.html" id="menulink">
+                <img src="menu_Snacks_and_Drinks.jpeg" class="menuimages" alt="Picture of Snacks">
+            </a>
+            </div>
+        
+
+        </div>
+
+
+        
+            
+        
+            <div class="menu-categories">
+                <h2 class="menu-category" data-category="entrees" id="menu-entree">Entrees</h2>
+                <h2 class="menu-category" data-category="desserts" id="menu-desserts">Desserts</h2>
+                <h2 class="menu-category" data-category="snacks" id="menu-snacks">Snacks</h2>
+            </div>
+        
+            <div id="menu-container"></div>
+        
+        
+
+
+            
+        <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+                <img src="entree_page_frenchtoast.jpg" style="width:100%">
+            </div>
+    
+            <div class="mySlides fade">
+                <img src="entree_page_pasta.jpeg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="dessert_page_cookies.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="dessert_page_pie.jpeg" style="width:100%">
+            </div>
+
+
+            <div class="mySlides fade">
+                <img src="entree_page_soup.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="menu_salmon.jpeg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+    </main>
+
+    <footer class = 'footer'>
+        <ul class="social_media_logo">
+            <li><a href="https://www.facebook.com/UniversityOfHouston/"><img src="facebook_logo.png" alt="facebook logo"></a></li>
+            <li><a href="https://www.instagram.com/universityofhouston/"><img src="instagram_logo.png" alt="instagram logo"></a></li>
+            <li><a href="https://twitter.com/uhouston?lang=en"><img src="twitter_logo.png" alt="twitter logo"></a></li>
+            <li><a href="https://www.tiktok.com/@uhouston?lang=en"><img src="tiktok_logo.png" alt="tiktok logo"></a></li>
+        </ul>
+        <p>© 2024 University of Houston - Sugar land | All Rights Reserved</p>
+        </footer>
+
+    <script src="cafe_menu.js"></script>
+</body>
+
+</html>

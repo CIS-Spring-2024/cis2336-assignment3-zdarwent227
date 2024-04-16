@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Order Now</title>
+</head>
+<body>
+    <header class="header">
+        
+        <div class="uhlogo">
+            <img src="uh_school_logo_full_text.png" alt="UH school logo">
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="topmenu">
+                <li><a href="cafe_Owner_Bio_Page.html">Home</a></li>
+                <li><a href="cafe_Menu.html">Menu</a></li>
+                <li><a href="cafe_Order_Now.html">Order Now</a></li>
+                <li><a href="cafe_About_Us.html">About Us</a></li>          
+                <li><a href="cafe_Contact_Us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="content">
+            <h1>Welcome to the order page!</h1>
+            
+            <div class="buttons">
+                <button id="entreesBtn">Entrees</button>
+                <button id="dessertsBtn">Desserts</button>
+                <button id="snacksBtn">Snacks</button>
+            </div>
+
+            <div id="menu-container" class="menu-container">
+            </div>
+        </div>
+
+        <div id="cart-icon" class="cart-icon" onclick="toggleCart()">
+            <img src="shoppingcart.png" alt="Cart Icon" width="75px">
+        </div>
+    
+        <div id="cart" class="cart" style="display: none;">
+            
+            <h2>Cart</h2>
+            <div id="cart-items">
+               
+            </div>
+            <div id="order-form">
+                <h3>Order Summary</h3>
+                <div id="cart-summary"></div>
+                <form id="submit-order-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" required></textarea>
+                    
+                    <label for="payment">Payment Method:</label>
+                    <select id="payment" name="payment" required>
+                        <option value="credit">Credit Card</option>
+                        <option value="debit">Debit Card</option>
+                    </select>
+                    
+                    <button type="submit">Submit Order</button>
+                </form>
+            </div>
+            <button id="clear-cart-btn" onclick="clearCart()">Clear Cart</button>
+        </div>
+        <div class="cougar_gif">
+            <img src="cougar_gif.gif" alt="cougar_with_shades">
+        </div>
+        <footer class = 'footer'>
+            <ul class="social_media_logo">
+                <li><a href="https://www.facebook.com/UniversityOfHouston/"><img src="facebook_logo.png" alt="facebook logo"></a></li>
+                <li><a href="https://www.instagram.com/universityofhouston/"><img src="instagram_logo.png" alt="instagram logo"></a></li>
+                <li><a href="https://twitter.com/uhouston?lang=en"><img src="twitter_logo.png" alt="twitter logo"></a></li>
+                <li><a href="https://www.tiktok.com/@uhouston?lang=en"><img src="tiktok_logo.png" alt="tiktok logo"></a></li>
+            </ul>
+            <p>© 2024 University of Houston - Sugar land | All Rights Reserved</p>
+        </footer>
+
+            
+        <script src="cafe_order_now.js"></script>
+    </body>
+</html>

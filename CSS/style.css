@@ -1,0 +1,494 @@
+
+/* Owner Bio Page */
+.ownerheader h1{
+  text-align: center;
+}
+
+#owner_Headshot{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.abouttheowner h2{
+  font-size: 30px;
+}
+.abouttheowner p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cafehomepage h1{
+  text-align: center;
+  padding-top: 30px;
+}
+.cougarpaw{
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+  font-size: 45px;
+  word-spacing: 3px;
+}
+.cougarpaw img {
+  
+  width: 150px;
+  
+  box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.cougarpaw img:hover {
+  
+  box-shadow: 0 0 20px 10px rgb(218, 17, 50); 
+}
+/*Start of Main Cafe Page*/
+
+.maincontent {
+  padding-bottom: 150px;
+}
+
+.container {
+  display: flex;
+}
+
+.cafehourstable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.tableheading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+  border: 2px solid white;
+  padding: 8px;
+}
+
+th {
+  height: 30px;
+  background-color: rgb(218, 17, 50);
+  color: white;
+}
+
+td {
+  background-color: #333;
+  color: white;
+}
+
+.specials {
+  display: flex;
+  justify-content: center;
+}
+
+.specials img {
+  width: 350px;
+}
+
+.specials > div {
+  text-align: center;
+  margin: 0 50px 100px 65px;
+}
+
+.location {
+  display: inline-flex;
+  margin-left: 50px;
+}
+
+.location img {
+  height: 350px;
+}
+
+.location > div {
+  text-align: center;
+  align-self: flex-start;
+}
+.location p{
+  font-size: 30px;
+}
+/* Nav Bar and UH logo */
+
+.header {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+  background-color: #333;
+  position: fixed; /* Fixed position to keep it at the top */
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensure it's above other content */
+  padding: 15px;
+}
+
+.uhlogo img {
+  margin-right: auto;
+  width: 150px; /* Adjust the logo width as needed */
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center; /* Center the navigation items horizontally */
+  align-items: center;
+}
+
+.topmenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display the menu items side by side */
+}
+
+.topmenu li {
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.topmenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px; /* Adjust font size as needed */
+  padding: 10px;
+}
+/* Main content */
+.maincontent h1{
+  margin-top: 85px;
+  font-size: 50px;
+  text-align: center; /* Center the text */
+  position: relative; /* Make the position relative for absolute positioning */
+}
+
+
+.maincontent h1::after {
+  content: ''; 
+  position: absolute; 
+  bottom: -5px; 
+  left: 50%; 
+  width: 245px; 
+  height: 2px; 
+  background-color: #000; 
+  transform: translateX(-50%); 
+}
+
+
+.maincontent h1{
+  margin-top: 75px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.topmenu a:hover{
+  color:rgb(218, 17, 50);
+  background-color:white ;
+}
+
+/*Button */
+.button button {
+  margin-left: 15px;
+}
+
+.button h2 {
+  display: inline-block; 
+  margin-left: 80px;
+  margin-right: 0px; 
+}
+
+.button img {
+  vertical-align: middle; 
+}
+
+.button input[type="radio"] {
+  margin-left: 100px; 
+}
+
+.button p{
+  margin-left: 145px;
+}
+  /*The footer black ribbon*/
+  .footer{
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+  }
+  .footer a{
+    color: white;
+  }
+  /* Social media logos */
+  .footer li{
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    
+  }
+  .footer li:hover{
+    filter: contrast(.1);
+  }
+  /* Copyright */
+  .footer p{
+    color: white;
+  }
+
+/* Start of menu page css */
+
+.menuheader{
+  margin-top: 85px;
+  font-size: 50px;
+  text-align: center; 
+  position: relative; 
+}
+
+
+.menuheader::after {
+  content: ''; 
+  position: absolute; 
+  bottom: -5px; 
+  left: 50%; 
+  width: 85px; 
+  height: 2px; 
+  background-color: #000; 
+  transform: translateX(-50%); 
+}
+
+.menuheader img{
+  width: 50px;
+}
+
+
+.menu_pics_and_links {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+}
+
+.menu-item {
+  text-align: center;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  flex-basis: 20%;
+}
+
+.menuimages {
+  width: 90%; 
+  margin-top: 20px;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.menu-item a{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.menu-item:hover{
+  font-weight: bolder;
+}
+
+
+.middle-image {
+  text-align: center;
+  margin-top: 200px;
+  width: 70px; 
+}
+
+.middle-image img {
+  max-width: 100%; 
+  display: inline-block; 
+  vertical-align: middle; 
+}
+
+.slideshow-container {
+  max-width: 550px;
+  position: relative;
+  margin: auto;
+  border: 7px solid rgb(218, 17, 50);
+  padding: 1px; 
+  margin-bottom: 50px;
+  
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(255, 255, 255, 0.479);
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.911);
+}
+
+
+.menuimages:hover{
+  
+  box-shadow: 0 0 20px 10px rgb(218, 17, 50); 
+}
+
+.menu-categories {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-bottom: 20px; 
+}
+
+.menu-category {
+  cursor: pointer;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.menu-category:hover {
+  background-color: #ddd;
+}
+
+.menu-image {
+  width: 250px; 
+  height: auto; 
+}
+
+.meal p {
+  font-size: 20px; 
+  color: #333; 
+  font-family: Arial, sans-serif; 
+  font-weight: bold;
+  margin-bottom: 55px; 
+}
+
+#menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.meal {
+  width: 200px; 
+  margin: 50px 100px; 
+  text-align: center;
+}
+
+/*Start Of order now page*/
+
+.content h1 {
+  margin-top: 75px;
+  text-align: center;
+  font-size: 50px;
+  position: relative; 
+}
+
+.content h1::after {
+  content: ''; 
+  position: absolute; 
+  bottom: -5px; 
+  left: 50%; 
+  width: 140px; 
+  height: 2px; 
+  background-color: #000; 
+  transform: translateX(-50%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px; 
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
+
+/* Menu items */
+.menu {
+  display: none; 
+  text-align: center;
+}
+
+
+.cart-icon {
+  position: fixed;
+  top: 75px; 
+  right: 20px; 
+  cursor: pointer;
+  z-index: 1000; 
+}
+
+
+.cart {
+  position: fixed;
+  top: 100px; 
+  right: 20px; 
+  background-color: #f8f8f8; 
+  border: 2px solid rgb(218, 17, 50);
+  padding: 20px;
+  display: none;
+  z-index: 1000; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+#order-form {
+  margin-bottom: 20px; 
+}
+
+#submit-order-form button[type="submit"] {
+  margin-top: 20px; 
+}
+
+.cougar_gif {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 45vh; 
+}
+
+.cougar_gif img {
+  max-width: 50%;
+  max-height: 50%; 
+  margin-bottom: 10px;
+}
